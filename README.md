@@ -81,3 +81,5 @@ $ mvn eclipse:eclipse
 [INFO] ------------------------------------------------------------------------
 ```
 After converting the project, import the same to Eclipse.
+```
+File > Import... > General > Existing Projects into Workspace > Next > Select root directory > Browse... [locate the folder of the project] > OK > Finish
