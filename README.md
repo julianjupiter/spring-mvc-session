@@ -83,3 +83,7 @@ $ mvn eclipse:eclipse
 After converting the project, import the same to Eclipse.
 ```
 File > Import... > General > Existing Projects into Workspace > Next > Select root directory > Browse... [locate the folder of the project] > OK > Finish
+```
+#### Convert project to Maven project.
+Right-click project > `Configure > Convert to Maven Project`
+ 
