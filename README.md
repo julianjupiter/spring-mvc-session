@@ -32,7 +32,13 @@ $ mvn archetype:generate -DgroupId=io.github.julianjupiter -DartifactId=spring-m
 [INFO] Finished at: 2016-03-22T10:44:05+08:00
 [INFO] Final Memory: 12M/159M
 [INFO] ------------------------------------------------------------------------
+```
+#### Go to the genereated project:
+```
 $ cd spring-mvc-session
+```
+#### View generated files:
+```
 $ tree
 .
 ├── pom.xml
@@ -47,3 +53,31 @@ $ tree
 
 5 directories, 4 files
 ```
+#### Convert project to Eclipse Project:
+```
+$ mvn eclipse:eclipse
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building spring-mvc-session Maven Webapp 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> maven-eclipse-plugin:2.10:eclipse (default-cli) > generate-resources @ spring-mvc-session >>>
+[INFO] 
+[INFO] <<< maven-eclipse-plugin:2.10:eclipse (default-cli) < generate-resources @ spring-mvc-session <<<
+[INFO] 
+[INFO] --- maven-eclipse-plugin:2.10:eclipse (default-cli) @ spring-mvc-session ---
+[INFO] Using Eclipse Workspace: null
+[INFO] Adding default classpath container: org.eclipse.jdt.launching.JRE_CONTAINER
+[INFO] Not writing settings - defaults suffice
+[INFO] Wrote Eclipse project for "spring-mvc-session" to /home/julian/Workspace/github/spring-mvc-session.
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.722 s
+[INFO] Finished at: 2016-03-22T10:59:36+08:00
+[INFO] Final Memory: 12M/157M
+[INFO] ------------------------------------------------------------------------
+```
+After converting the project, import the ssame to Eclipse.
