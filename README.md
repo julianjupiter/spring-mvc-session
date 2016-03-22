@@ -1,7 +1,8 @@
 # spring-mvc-session
 
 #### Create Maven Project:
-```$ mvn archetype:generate -DgroupId=io.github.julianjupiter -DartifactId=spring-mvc-session -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+```
+$ mvn archetype:generate -DgroupId=io.github.julianjupiter -DartifactId=spring-mvc-session -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
 [INFO] Scanning for projects...
 [INFO]                                                                         
 [INFO] ------------------------------------------------------------------------
