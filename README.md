@@ -80,4 +80,4 @@ $ mvn eclipse:eclipse
 [INFO] Final Memory: 12M/157M
 [INFO] ------------------------------------------------------------------------
 ```
-After converting the project, import the ssame to Eclipse.
+After converting the project, import the same to Eclipse.
